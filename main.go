@@ -1,7 +1,12 @@
 package main
 
 func main() {
-	RunSingletonThreadSafe2()
+	RunPrototype()
+	//RunBridge()
+	//RunAdapter()
+	//RunAbstractFactory()
+	//RunFactory()
+	//RunSingletonThreadSafe2()
 	//RunSingletonThreadSafe()
 	//RunProducerConsumerWithBuffer()
 	//RunObserverSubject()
