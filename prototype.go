@@ -17,33 +17,33 @@ type inode interface {
 }
 
 //concrete object 1
-type file struct {
+type ifile struct {
 	name string
 }
 
-func (f *file) print(indentation string) {
+func (f *ifile) print(indentation string) {
 	fmt.Println(indentation + f.name)
 }
-func (f *file) clone() inode {
-	return &file{
+func (f *ifile) clone() inode {
+	return &ifile{
 		name: f.name + clone_suffix,
 	}
 }
 
 //concrete object 2
-type folder struct {
+type ifolder struct {
 	name     string
 	children []inode
 }
 
-func (f *folder) print(indentation string) {
+func (f *ifolder) print(indentation string) {
 	fmt.Println(indentation + f.name)
 	for _, v := range f.children {
 		v.print(indentation + indentation)
 	}
 }
-func (f *folder) clone() inode {
-	cloneFolder := &folder{name: f.name + clone_suffix}
+func (f *ifolder) clone() inode {
+	cloneFolder := &ifolder{name: f.name + clone_suffix}
 	cloneFolder.children = make([]inode, 0, len(f.children))
 	for _, v := range f.children {
 		cloneFolder.children = append(cloneFolder.children, v.clone())
@@ -52,19 +52,19 @@ func (f *folder) clone() inode {
 }
 
 func RunPrototype() {
-	folderOrigin := &folder{
+	folderOrigin := &ifolder{
 		name: "folder origin",
 		children: []inode{
-			&folder{
+			&ifolder{
 				name: "folder inner",
 			},
-			&file{
+			&ifile{
 				name: "file 1",
 			},
-			&file{
+			&ifile{
 				name: "file 2",
 			},
-			&file{
+			&ifile{
 				name: "file 3",
 			},
 		},

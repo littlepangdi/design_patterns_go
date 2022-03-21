@@ -8,19 +8,24 @@ design_patterns_go
 
 Golang demos of 22 Design Patterns with several elegant skills
 - [x] Producer-consumer (not in 22 range but useful)
-- [x] Observer
+
+- Creative pattern
 - [x] Singleton
 - [x] Factory
 - [x] Abstract Factory
+- [x] Prototype
+- [x] Builder
+
+- Structural Pattern
 - [x] Adapter
 - [x] Bridge
-- [x] Prototype
-- [ ] Builder
-- [ ] Composite
-- [ ] Decorator
+- [x] Composite
+- [x] Decorator
 - [ ] Facade
 - [ ] Flyweight
 - [ ] Proxy
+
+- Behavior pattern
 - [ ] Chain of responsibility
 - [ ] Command
 - [ ] Iterator
@@ -30,6 +35,7 @@ Golang demos of 22 Design Patterns with several elegant skills
 - [ ] Strategy
 - [ ] Template Method
 - [ ] Visitor
+- [x] Observer
 
 
 #### Stage 2:

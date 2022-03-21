@@ -1,7 +1,10 @@
 package main
 
 func main() {
-	RunPrototype()
+	RunDecorator()
+	//RunComposite()
+	//RunBuilder()
+	//RunPrototype()
 	//RunBridge()
 	//RunAdapter()
 	//RunAbstractFactory()
