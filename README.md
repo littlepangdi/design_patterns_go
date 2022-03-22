@@ -21,9 +21,9 @@ Golang demos of 22 Design Patterns with several elegant skills
 - [x] Bridge
 - [x] Composite
 - [x] Decorator
-- [ ] Facade
-- [ ] Flyweight
-- [ ] Proxy
+- [x] Facade
+- [x] Flyweight
+- [x] Proxy
 
 - Behavior pattern
 - [ ] Chain of responsibility

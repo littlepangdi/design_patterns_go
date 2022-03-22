@@ -10,7 +10,7 @@ import "fmt"
 
 */
 
-type player interface {
+type aPlayer interface {
 	PlayMusic(file string)
 }
 
@@ -35,7 +35,7 @@ func (a *SoundAdapter) PlayMusic(file string) {
 	a.GameSoundPlayer.PlayGameSound(file)
 }
 
-func Play(p player, file string) {
+func Play(p aPlayer, file string) {
 	p.PlayMusic(file)
 }
 

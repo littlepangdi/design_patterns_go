@@ -1,7 +1,10 @@
 package main
 
 func main() {
-	RunDecorator()
+	RunProxy()
+	//RunFlyweight()
+	//RunFacade()
+	//RunDecorator()
 	//RunComposite()
 	//RunBuilder()
 	//RunPrototype()
