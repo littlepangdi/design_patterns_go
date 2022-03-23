@@ -1,7 +1,11 @@
 package main
 
 func main() {
-	RunProxy()
+
+	RunChainOfResponsibility()
+	//RunIterator()
+	//RunMediator()
+	//RunProxy()
 	//RunFlyweight()
 	//RunFacade()
 	//RunDecorator()

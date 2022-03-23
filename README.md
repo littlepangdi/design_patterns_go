@@ -26,10 +26,10 @@ Golang demos of 22 Design Patterns with several elegant skills
 - [x] Proxy
 
 - Behavior pattern
-- [ ] Chain of responsibility
+- [x] Chain of responsibility
 - [ ] Command
-- [ ] Iterator
-- [ ] Mediator
+- [x] Iterator
+- [x] Mediator
 - [ ] Memento
 - [ ] State
 - [ ] Strategy
