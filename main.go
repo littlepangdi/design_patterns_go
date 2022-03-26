@@ -1,12 +1,17 @@
 package main
 
 func main() {
-
-	RunChainOfResponsibility()
+	//RunTemplate()
+	//RunStrategy()
+	//RunState()
+	//RunVisitor()
+	//RunMemento()
+	//RunCommand()
+	//RunChainOfResponsibility()
 	//RunIterator()
 	//RunMediator()
 	//RunProxy()
-	//RunFlyweight()
+	RunFlyweight()
 	//RunFacade()
 	//RunDecorator()
 	//RunComposite()
